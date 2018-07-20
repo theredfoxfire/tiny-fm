@@ -54,6 +54,7 @@ router.register('/get-comment-list/:id', function(req, res, params) {
 
 /**
   request method GET,
+  TODO: USE POST
   request param {
     'nickname': requeired,
     'title': required,
@@ -73,6 +74,7 @@ router.register('/store-article', function(req, res, params) {
 
 /**
   request method GET,
+  TODO: USE POST
   request param {
     'nickname': requeired,
     'content': required,
@@ -91,6 +93,7 @@ router.register('/store-comment/:articleID', function(req, res, params) {
 
 /**
   request method GET,
+  TODO: USE POST
   request param {
     'nickname': requeired,
     'content': required,
